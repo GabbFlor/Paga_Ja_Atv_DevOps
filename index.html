@@ -156,7 +156,7 @@
     <div><h4>Contato</h4><a>comercial@pagaja.exemplo</a><a>+55 11 0000-0000</a></div>
   </div>
   <div class="infra"><div class="wrap">
-    <span><span class="dot"></span>Servido por <span class="badge" id="host">atv-devops-pagaja</span></span>
+    <span><span class="dot"></span>Servido por <span class="badge" id="host">web-srv-01</span></span>
     <span>Uptime: <span id="up">00:00:00</span></span>
     <span>PagaJá · ambiente de demonstração</span>
   </div></div>
@@ -164,7 +164,7 @@
 
 <script>
   /* >>> ALUNO: altere INSTANCE_LABEL em CADA instância EC2 para visualizar o Auto Scaling pelo balanceador <<< */
-  const INSTANCE_LABEL = "atv-devops-pagaja";
+  const INSTANCE_LABEL = "web-srv-01";
   document.getElementById("host").textContent = INSTANCE_LABEL;
   document.title = "PagaJá · " + INSTANCE_LABEL;
   const t0=Date.now();
