@@ -24,6 +24,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          no-cache: true
           tags: ${{ secrets.DOCKER_USERNAME }}/meu-nginx-app:latest
 
   deploy-to-ec2:
